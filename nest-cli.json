@@ -10,7 +10,7 @@
   "monorepo": true,
   "root": "apps/auth",
   "projects": {
-    "auth": {
+    "@apps/auth": {
       "type": "application",
       "root": "apps/auth",
       "entryFile": "main",
@@ -19,7 +19,7 @@
         "tsConfigPath": "apps/auth/tsconfig.app.json"
       }
     },
-    "users": {
+    "@apps/users": {
       "type": "application",
       "root": "apps/users",
       "entryFile": "main",
